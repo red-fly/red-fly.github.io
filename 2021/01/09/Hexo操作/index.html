@@ -20,30 +20,41 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="路漫漫其修远兮，吾将上下而求索">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Red">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="搭建一个博客1、安装git2、安装nodejs搭建hexo博客框架借助npm包安装hexo博客框架（利用镜像源）所以要先安装一下cnpm（以下利用淘宝链接） 1npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org  用cnpm安装hexo框架 1cnpm install -g hexo-cli">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo操作">
+<meta property="og:url" content="http://example.com/2021/01/09/Hexo%E6%93%8D%E4%BD%9C/index.html">
 <meta property="og:site_name" content="Red">
-<meta property="og:description" content="路漫漫其修远兮，吾将上下而求索">
+<meta property="og:description" content="搭建一个博客1、安装git2、安装nodejs搭建hexo博客框架借助npm包安装hexo博客框架（利用镜像源）所以要先安装一下cnpm（以下利用淘宝链接） 1npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org  用cnpm安装hexo框架 1cnpm install -g hexo-cli">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="c:/Users/red/AppData/Roaming/Typora/typora-user-images/image-20210108231615656.png">
+<meta property="og:image" content="c:/Users/red/AppData/Roaming/Typora/typora-user-images/image-20210108231831971.png">
+<meta property="og:image" content="c:/Users/red/AppData/Roaming/Typora/typora-user-images/image-20210108231936476.png">
+<meta property="og:image" content="c:/Users/red/AppData/Roaming/Typora/typora-user-images/image-20210108233145902.png">
+<meta property="og:image" content="c:/Users/red/AppData/Roaming/Typora/typora-user-images/image-20210108233349863.png">
+<meta property="og:image" content="c:/Users/red/AppData/Roaming/Typora/typora-user-images/image-20210109001135740.png">
+<meta property="og:image" content="c:/Users/red/AppData/Roaming/Typora/typora-user-images/image-20210109132828588.png">
+<meta property="article:published_time" content="2021-01-09T10:33:25.000Z">
+<meta property="article:modified_time" content="2021-01-09T10:38:26.404Z">
 <meta property="article:author" content="red">
+<meta property="article:tag" content="Tool">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:/Users/red/AppData/Roaming/Typora/typora-user-images/image-20210108231615656.png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2021/01/09/Hexo%E6%93%8D%E4%BD%9C/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Red</title>
+  <title>Hexo操作 | Red</title>
   
 
 
@@ -157,9 +168,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -175,10 +187,9 @@
       <meta itemprop="name" content="Red">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/01/09/Hexo%E6%93%8D%E4%BD%9C/" class="post-title-link" itemprop="url">Hexo操作</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Hexo操作
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -211,7 +222,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="搭建一个博客"><a href="#搭建一个博客" class="headerlink" title="搭建一个博客"></a>搭建一个博客</h1><h2 id="1、安装git"><a href="#1、安装git" class="headerlink" title="1、安装git"></a>1、安装git</h2><h2 id="2、安装nodejs搭建hexo博客框架"><a href="#2、安装nodejs搭建hexo博客框架" class="headerlink" title="2、安装nodejs搭建hexo博客框架"></a>2、安装nodejs搭建hexo博客框架</h2><p>借助npm包安装hexo博客框架（利用镜像源）所以要先安装一下cnpm（以下利用淘宝链接）</p>
+        <h1 id="搭建一个博客"><a href="#搭建一个博客" class="headerlink" title="搭建一个博客"></a>搭建一个博客</h1><h2 id="1、安装git"><a href="#1、安装git" class="headerlink" title="1、安装git"></a>1、安装git</h2><h2 id="2、安装nodejs搭建hexo博客框架"><a href="#2、安装nodejs搭建hexo博客框架" class="headerlink" title="2、安装nodejs搭建hexo博客框架"></a>2、安装nodejs搭建hexo博客框架</h2><p>借助npm包安装hexo博客框架（利用镜像源）所以要先安装一下cnpm（以下利用淘宝链接）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 <p><img src="C:\Users\red\AppData\Roaming\Typora\typora-user-images\image-20210108231615656.png" alt="image-20210108231615656"></p>
 <p>用cnpm安装hexo框架</p>
@@ -255,155 +266,33 @@
 <p>hexo d</p>
 <p>就ok啦</p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/Tool/" rel="tag"># Tool</a>
+          </div>
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/09/%E6%88%91%E7%9A%84%E6%BD%98%E6%BD%98/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="red">
-      <meta itemprop="description" content="路漫漫其修远兮，吾将上下而求索">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Red">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/01/09/%E6%88%91%E7%9A%84%E6%BD%98%E6%BD%98/" class="post-title-link" itemprop="url">我的潘潘</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2021-01-09 16:21:49 / 修改时间：16:24:20" itemprop="dateCreated datePublished" datetime="2021-01-09T16:21:49+08:00">2021-01-09</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Diary/" itemprop="url" rel="index"><span itemprop="name">Diary</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>欢迎潘潘来到red的博客空间！爱你噢！</p>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/01/09/%E6%88%91%E7%9A%84%E6%BD%98%E6%BD%98/" rel="prev" title="我的潘潘">
+      <i class="fa fa-chevron-left"></i> 我的潘潘
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/08/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="red">
-      <meta itemprop="description" content="路漫漫其修远兮，吾将上下而求索">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Red">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/01/08/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-01-08 23:26:43" itemprop="dateCreated datePublished" datetime="2021-01-08T23:26:43+08:00">2021-01-08</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -456,6 +345,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2"><span class="nav-number">1.</span> <span class="nav-text">搭建一个博客</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E3%80%81%E5%AE%89%E8%A3%85git"><span class="nav-number">1.1.</span> <span class="nav-text">1、安装git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2%E3%80%81%E5%AE%89%E8%A3%85nodejs%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6"><span class="nav-number">1.2.</span> <span class="nav-text">2、安装nodejs搭建hexo博客框架</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E3%80%81%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A%E5%85%AC%E5%BC%80%E4%BD%BF%E7%94%A8"><span class="nav-number">1.3.</span> <span class="nav-text">3、部署到github上公开使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4%E3%80%81%E6%8D%A2%E4%B8%BB%E9%A2%98%EF%BC%88%E6%8D%A2%E6%88%90next%EF%BC%89"><span class="nav-number">1.4.</span> <span class="nav-text">4、换主题（换成next）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5%E3%80%81%E6%A0%BC%E5%BC%8F"><span class="nav-number">1.5.</span> <span class="nav-text">5、格式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6%E3%80%81%E6%97%A5%E5%B8%B8%E6%93%8D%E4%BD%9C"><span class="nav-number">1.6.</span> <span class="nav-text">6、日常操作</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
